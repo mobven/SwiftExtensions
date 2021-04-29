@@ -4,7 +4,7 @@ Useful extensions for Swift and iOS code
 
 ## Enums
 
--   [Date.Weekday](enums/Date.Weekday.md)
+-   [Date.Weekday](Documentation/Reference/SwiftExtensions/enums/Date.Weekday.md)
 
 ## Extensions
 
