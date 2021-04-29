@@ -79,7 +79,13 @@ public extension Date {
     }
 
     enum Weekday: Int {
-        case sunday = 1, monday, tuesday, wednesday, thurthday, friday, saturday
+        case sunday = 1
+        case monday
+        case tuesday
+        case wednesday
+        case thursday
+        case friday
+        case saturday
     }
 
     /// Get date matching specified weekday on  the nth week of the month.
