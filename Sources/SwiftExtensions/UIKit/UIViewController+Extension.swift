@@ -7,6 +7,7 @@
 
 import UIKit
 
+#if canImport(iOS)
 public extension UIViewController {
     /// Height of the status bar.
     var topBarHeight: CGFloat {
@@ -20,3 +21,4 @@ public extension UIViewController {
         }
     }
 }
+#endif

@@ -9,13 +9,14 @@
 import Foundation
 import UIKit
 
+#if canImport(iOS)
 public extension UIImage {
     /// Creates an image object using the named image asset that is compatible with the specified trait collection.
     /// - Parameters:
     ///   - named: The name of the image asset or file.
     ///   - bundle: The bundle containing the image file or asset catalog.
     convenience init?(named: String, in bundle: Bundle) {
-        self.init(named: named, in: bundle, compatibleWith: nil)
+        self.init(named: named, in: bundle, with: nil)
     }
 
     /// Returns image scaled to the specified witdh preserving ascpect ratio.
@@ -48,3 +49,4 @@ public extension UIImage {
         return scaledImage
     }
 }
+#endif

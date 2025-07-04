@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+#if canImport(iOS)
 public extension UIImageView {
     /// Applies specified color to the image.
     /// - Parameter color: Color to be applied.
@@ -18,3 +19,4 @@ public extension UIImageView {
         tintColor = color
     }
 }
+#endif

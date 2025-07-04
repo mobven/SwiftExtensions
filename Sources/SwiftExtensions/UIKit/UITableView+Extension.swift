@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+#if canImport(iOS)
 public extension UITableView {
     /// Registers a nib object containing a cell with the table view under a specified identifier.
     /// - Parameters:
@@ -73,3 +74,4 @@ public extension UITableView {
         return headerView
     }
 }
+#endif

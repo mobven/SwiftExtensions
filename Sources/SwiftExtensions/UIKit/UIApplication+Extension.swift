@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 
 /// UIApplication extensions.
+
+#if canImport(iOS)
 public extension UIApplication {
     /// Returns height of the status bar on the device.
     class var statusBarHeight: CGFloat {
@@ -117,3 +119,4 @@ public extension UIApplication {
         }
     }
 }
+#endif

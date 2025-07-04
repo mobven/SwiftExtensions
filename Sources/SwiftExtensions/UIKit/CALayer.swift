@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+#if canImport(iOS)
 public extension CALayer {
     /// Adds shadow with Zeplin compliance.
     /// - Parameters:
@@ -36,3 +37,4 @@ public extension CALayer {
         }
     }
 }
+#endif
