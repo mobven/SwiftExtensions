@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UITableView {
     /// Registers a nib object containing a cell with the table view under a specified identifier.
     /// - Parameters:

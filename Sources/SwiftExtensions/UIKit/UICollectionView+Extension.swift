@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UICollectionView {
     /// Registers a nib file for use in creating new collection view cells.
     /// - Parameters:

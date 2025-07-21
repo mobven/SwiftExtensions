@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UIImage {
     /// Creates an image object using the named image asset that is compatible with the specified trait collection.
     /// - Parameters:

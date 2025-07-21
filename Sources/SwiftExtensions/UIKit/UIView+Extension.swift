@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UIView {
     /// Corner radius of view
     @IBInspectable var cornerRadius: CGFloat {

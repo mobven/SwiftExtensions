@@ -7,7 +7,7 @@
 //
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UIControl {
     /// Simulates specified event for `UIControl`
     /// - Parameter event: Event type.

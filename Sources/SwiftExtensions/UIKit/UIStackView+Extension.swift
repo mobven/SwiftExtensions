@@ -7,7 +7,7 @@
 
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UIStackView {
     /// Adds views to the end of the arrangedSubviews array.
     /// - Parameter subViews: Views to be added to the array of views arranged by the stack.

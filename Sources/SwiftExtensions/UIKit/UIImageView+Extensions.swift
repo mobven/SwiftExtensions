@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-#if canImport(iOS)
+#if os(iOS)
 public extension UIImageView {
     /// Applies specified color to the image.
     /// - Parameter color: Color to be applied.
