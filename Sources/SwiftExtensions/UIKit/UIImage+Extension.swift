@@ -16,7 +16,11 @@ public extension UIImage {
     ///   - named: The name of the image asset or file.
     ///   - bundle: The bundle containing the image file or asset catalog.
     convenience init?(named: String, in bundle: Bundle) {
-        self.init(named: named, in: bundle, with: nil)
+        if #available(iOS 13.0, *) {
+            self.init(named: named, in: bundle, with: nil)
+        } else {
+            self.init(named: named)
+        }
     }
 
     /// Returns image scaled to the specified witdh preserving ascpect ratio.
